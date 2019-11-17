@@ -37,7 +37,7 @@ end
 
 def total_gross(source)
   dir_index = 0
-  directors_totals(source)
+  directors_totals(source)[list_of_directors(source)[dir_index]] 
   
 end
 

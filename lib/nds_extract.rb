@@ -42,7 +42,7 @@ def total_gross(source)
   total_gross = total_gross + directors_totals(source)[list_of_directors(source)[dir_index]] 
   dir_index += 1 
   end
-  
+  total_gross
 end
 
 

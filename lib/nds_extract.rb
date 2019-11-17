@@ -36,7 +36,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  puts list_of_directors[0]
+  list_of_directors[0]
 end
 
 
